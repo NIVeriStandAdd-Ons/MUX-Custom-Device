@@ -4,11 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="Mux Data.ctl" Type="VI" URL="../Mux Data.ctl"/>
-		<Item Name="Relay Channel Data.ctl" Type="VI" URL="../Relay Channel Data.ctl"/>
-		<Item Name="Relay Data.ctl" Type="VI" URL="../Relay Data.ctl"/>
-		<Item Name="Relay Status.ctl" Type="VI" URL="../Relay Status.ctl"/>
-		<Item Name="Switch.ctl" Type="VI" URL="../Switch.ctl"/>
+		<Item Name="Mux Data.ctl" Type="VI" URL="../SubVIs/Mux Data.ctl"/>
+		<Item Name="Relay Channel Data.ctl" Type="VI" URL="../SubVIs/Relay Channel Data.ctl"/>
+		<Item Name="Relay Data.ctl" Type="VI" URL="../SubVIs/Relay Data.ctl"/>
+		<Item Name="Relay Status.ctl" Type="VI" URL="../SubVIs/Relay Status.ctl"/>
+		<Item Name="Switch.ctl" Type="VI" URL="../SubVIs/Switch.ctl"/>
 	</Item>
 	<Item Name="File Operations" Type="Folder">
 		<Item Name="Export To File.vi" Type="VI" URL="../File Operations/Export To File.vi"/>
@@ -17,10 +17,10 @@
 		<Item Name="Write File.vi" Type="VI" URL="../File Operations/Write File.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Add Mux.vi" Type="VI" URL="../Add Mux.vi"/>
-		<Item Name="Add Relay Channel.vi" Type="VI" URL="../Add Relay Channel.vi"/>
+		<Item Name="Add Mux.vi" Type="VI" URL="../SubVIs/Add Mux.vi"/>
+		<Item Name="Add Relay Channel.vi" Type="VI" URL="../SubVIs/Add Relay Channel.vi"/>
 		<Item Name="Add Relays.vi" Type="VI" URL="../SubVIs/Add Relays.vi"/>
-		<Item Name="Add Sections and Channels.vi" Type="VI" URL="../Add Sections and Channels.vi"/>
+		<Item Name="Add Sections and Channels.vi" Type="VI" URL="../SubVIs/Add Sections and Channels.vi"/>
 		<Item Name="Delete Items.vi" Type="VI" URL="../SubVIs/Delete Items.vi"/>
 		<Item Name="EnableDisable Custom Device.vi" Type="VI" URL="../SubVIs/EnableDisable Custom Device.vi"/>
 		<Item Name="Get Added Relays.vi" Type="VI" URL="../SubVIs/Get Added Relays.vi"/>
@@ -34,9 +34,6 @@
 	</Item>
 	<Item Name="MUX Channel Page.vi" Type="VI" URL="../MUX Channel Page.vi"/>
 	<Item Name="MUX Global.vi" Type="VI" URL="../MUX Global.vi"/>
-	<Item Name="MUX Initialization SubVI-Cancel.vi" Type="VI" URL="../MUX Initialization SubVI-Cancel.vi"/>
-	<Item Name="MUX Initialization SubVI.vi" Type="VI" URL="../MUX Initialization SubVI.vi"/>
-	<Item Name="MUX Initialization VI Old.vi" Type="VI" URL="../MUX Initialization VI Old.vi"/>
 	<Item Name="MUX Initialization VI.vi" Type="VI" URL="../MUX Initialization VI.vi"/>
 	<Item Name="MUX Main Page.vi" Type="VI" URL="../MUX Main Page.vi"/>
 	<Item Name="MUX RT Driver VI.vi" Type="VI" URL="../MUX RT Driver VI.vi"/>
