@@ -1,6 +1,6 @@
 ## MUX Custom Device ##
 
-**MUX Custom Device** allows users to use NI Switch relay devices inside NI VeriStand with the ability to MUX (or group) relays. These are commonly used to switch power and ground, but could be used to switch anything through a relay. The custom device was forked from the NI-Switch-Relay custom device. It also contains a custom workspace control to group a MUX group into one control and a custom workspace tool to update all relays from a csv file. 
+**MUX Custom Device** allows users to use a PXI-2569 relay device inside NI VeriStand with the ability to MUX (or group) relays. These are commonly used to switch power and ground, but could be used to switch anything through a relay. The custom device was forked from the NI-Switch-Relay custom device. It also contains a custom workspace control to group a MUX group into one control and a custom workspace tool to update all relays from a csv file. 
 
 ### LabVIEW Version ###
 
